@@ -1,5 +1,15 @@
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 
+	ross: {
+		learnset: {
+			payday: ["9L1"],
+			makeitrain: ["9L1"],
+		},
+	},
+
+	// Basegame mons down here
+	//////////////////////////////////////////////////////////
+
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],

@@ -19,6 +19,30 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	// Coney Island Disco Palace
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Coney Island Disco Palace",
+	},
+
+	{
+		name: "[Gen 9] Coney Island OU",
+		desc: `Custom mons all from Coney Island Disco Palace, converged into one main tier.`,
+		mod: 'coney',
+		ruleset: ['Standard NatDex', 'Terastal Clause'],
+		// banlist: [],
+	},
+
+	{
+		name: "[Gen 9] Coney Island DOU",
+		desc: `Custom mons all from Coney Island Disco Palace, converged into one main tier. Now in new Doubles flavor!.`,
+		mod: 'coney',
+		gameType: 'doubles',
+		ruleset: ['Standard NatDex', 'Terastal Clause'],
+		// banlist: [],
+	},
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -29,7 +53,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 9] Random Battle",
 		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
-		team: 'random',
 		bestOfDefault: true,
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
