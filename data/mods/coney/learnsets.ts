@@ -4,6 +4,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			payday: ["9L1"],
 			makeitrain: ["9L1"],
+			roaroftime: ["9L1"],
+			flash: ["9L1"],
+			thunderbolt: ["9L1"],
 		},
 	},
 
